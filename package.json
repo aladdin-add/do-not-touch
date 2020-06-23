@@ -1,0 +1,42 @@
+{
+  "name": "do-not-touch",
+  "version": "0.0.0",
+  "author": "唯然<weiran.zsd@outlook.com>",
+  "description": "do not touch these files",
+  "main": "./lib/index.js",
+  "scripts": {
+    "lint": "eslint lib tests",
+    "test": "mocha tests/**/*"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "lib"
+  ],
+  "dependencies": {
+    "shelljs": "^0.8.4"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.0-alpha.0",
+    "eslint-config-ts": "^4.0.1",
+    "husky": "^4.2.3",
+    "lint-staged": "^10.0.8",
+    "mocha": "^7.1.0"
+  },
+  "keywords": [
+    "Node.js",
+    "CI"
+  ],
+  "eslintConfig": {
+    "extends": ["eslint:recommended"]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint -- --fix && git add ."
+    }
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=6"
+  }
+}
