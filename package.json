@@ -17,8 +17,7 @@
     "shelljs": "^0.8.4"
   },
   "devDependencies": {
-    "eslint": "^6.0.0-alpha.0",
-    "eslint-config-ts": "^4.0.1",
+    "eslint": "latest",
     "husky": "^4.2.3",
     "lint-staged": "^10.0.8",
     "mocha": "^7.1.0"
