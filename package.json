@@ -4,6 +4,9 @@
   "author": "唯然<weiran.zsd@outlook.com>",
   "description": "do not touch these files",
   "main": "./lib/index.js",
+  "bin": {
+    "do-not-touch": "./lib/index.js"
+  },
   "scripts": {
     "lint": "eslint lib tests",
     "test": "mocha tests/**/*"
@@ -37,5 +40,8 @@
   "license": "MIT",
   "engines": {
     "node": ">=6"
-  }
+  },
+  "do-not-touch": [
+    "test-file"
+  ]
 }

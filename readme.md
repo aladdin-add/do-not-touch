@@ -1,5 +1,16 @@
-# do not touch
+# do-not-touch
+
+avoid modifing some files unexpectedly.
 
 ## Usage
 
-TODO!!
+package.json
+```js
+{
+    "name": "foo",
+    "version": "x.y.z",
+    ...
+
+    "do-not-touch": ["some-file"]
+}
+```
