@@ -10,7 +10,9 @@ package.json
     "name": "foo",
     "version": "x.y.z",
     ...
-
+    "scripts": {
+        "test": "do-not-touch"
+    },
     "do-not-touch": ["some-file"]
 }
 ```
