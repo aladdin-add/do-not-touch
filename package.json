@@ -30,7 +30,9 @@
     "CI"
   ],
   "eslintConfig": {
-    "extends": ["eslint:recommended"]
+    "extends": [
+      "eslint:recommended"
+    ]
   },
   "husky": {
     "hooks": {
