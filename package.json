@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "eslint": "latest",
+    "eslint-plugin-node": "^11.1.0",
     "husky": "^4.2.3",
     "lint-staged": "^10.0.8",
     "mocha": "^7.1.0",
@@ -34,7 +35,18 @@
   ],
   "eslintConfig": {
     "extends": [
-      "eslint:recommended"
+      "eslint:recommended",
+      "plugin:node/recommended"
+    ],
+    "overrides": [
+      {
+        "files": [
+          "tests/**/*"
+        ],
+        "env": {
+          "mocha": true
+        }
+      }
     ]
   },
   "husky": {
