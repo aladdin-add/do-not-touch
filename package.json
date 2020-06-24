@@ -17,6 +17,8 @@
     "lib"
   ],
   "dependencies": {
+    "minimatch": "^3.0.4",
+    "pkg-dir": "^4.2.0",
     "shelljs": "^0.8.4"
   },
   "devDependencies": {
