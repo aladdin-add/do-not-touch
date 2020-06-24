@@ -3,6 +3,11 @@
 avoid modifing some files unexpectedly.
 
 ## Usage
+```bash
+$ npm i do-not-touch -D
+or
+$ yarn add do-not-touch -D
+```
 
 package.json
 ```js
