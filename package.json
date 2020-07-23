@@ -1,6 +1,6 @@
 {
   "name": "do-not-touch",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "唯然<weiran.zsd@outlook.com>",
   "description": "do not touch these files",
   "main": "./lib/index.js",
